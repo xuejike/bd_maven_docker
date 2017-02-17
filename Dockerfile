@@ -6,6 +6,3 @@ RUN yum install -y git maven
 ADD ./pom.xml /pom.xml
 RUN mvn compile
 
-ADD ./ /
-
-RUN mvn package
